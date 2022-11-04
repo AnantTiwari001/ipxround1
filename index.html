@@ -6,191 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- google icons link -->
+    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <style>
-        * {
-            padding: 0;
-            margin: 0;
-        }
 
-        body {
-            background-color: black;
-            color: white;
-            overflow-x: hidden;
-            padding: 0 50px;
-        }
-
-        nav {
-            display: flex;
-            justify-content: space-between;
-            padding: 0 20px;
-            align-items: center;
-            background-color: black;
-            color: white;
-            height: 70px;
-        }
-
-        .logo {
-            position: relative;
-        }
-
-        .logo>img {
-            position: absolute;
-            top: 0;
-            right: -10px;
-        }
-
-        .account>span {
-            border: 1px solid grey;
-            border-radius: 50%;
-            padding: 3px;
-            transform: scale(0.8);
-            background: rgb(104, 104, 108);
-            background: linear-gradient(90deg, rgba(104, 104, 108, 1) 0%, rgba(0, 0, 0, 1) 100%, rgba(27, 28, 27, 1) 100%);
-        }
-
-        .hero {
-            height: 500px;
-            width: 100vw;
-            display: flex;
-            justify-content: space-around;
-            margin-bottom: 30px;
-        }
-
-        .dim {
-            color: white;
-            font-size: small;
-            opacity: 0.68;
-            font-style: italic;
-        }
-
-        p.dim {
-            margin-bottom: 8px;
-        }
-
-        .text {
-            width: 500px;
-            /* align-self: center; */
-        }
-
-        .head {
-            height: 70px;
-        }
-
-        .credits {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 8px 80px 8px 0px;
-            border-top: 0.1px solid grey;
-            border-bottom: 0.1px solid grey;
-            margin-bottom: 30px;
-        }
-
-        .methods>img {
-            margin-right: 40px;
-            width: 65px;
-        }
-
-        .button {
-            width: 110px;
-            height: 36px;
-            font-size: x-small;
-            border-radius: 10px;
-            margin-right: 10px;
-            color: white;
-        }
-
-        .primary {
-            background: rgb(45, 45, 236);
-            background: linear-gradient(45deg, rgba(45, 45, 236, 1) 0%, rgba(236, 21, 105, 1) 100%, rgba(0, 0, 0, 1) 100%);
-        }
-
-        .secondary {
-            background-color: rgb(90, 5, 19);
-        }
-
-        /* The accordion */
-        .accordion {
-            color: white;
-            background-color: black;
-            border-bottom: 1px solid grey;
-        }
-
-        .accordion .contentBx {
-            position: relative;
-            /* margin: 10px 20px; */
-        }
-
-        .accordion .contentBx .label {
-            position: relative;
-            padding: 10px 0;
-            color: white;
-            cursor: pointer;
-        }
-
-        .accordion .contentBx .label::before {
-            content: '+';
-            position: absolute;
-            top: 50%;
-            right: 20px;
-            transform: translateY(-50%);
-            font-size: 1.5em;
-        }
-
-        .accordion .contentBx.active .label::before {
-            content: '-';
-        }
-
-        .accordion .contentBx .content {
-            position: relative;
-            padding: 0px;
-            height: 0;
-            font-size: small;
-            overflow: hidden;
-            transition: 0.5s;
-            overflow-y: hidden;
-        }
-
-        .accordion .contentBx.active .content {
-            height: auto;
-            /* padding: 10px; */
-            padding-bottom: 15px;
-            font-size: small;
-            opacity: 0.8;
-
-        }
-
-        .Benefits {
-            border: 1px solid grey;
-            padding: 5px 25px;
-            margin-bottom: 20px;
-        }
-
-        .Benefits>p {
-            font-size: 11px;
-        }
-
-        .conItem {
-            height: auto;
-            width: 33%;
-            background-color: rgb(50, 50, 50);
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-            padding: 0 30px;
-            margin-right: 15px
-        }
-
-        .social {
-            display: flex;
-            /* justify-content: space-evenly; */
-            align-items: center;
-        }
-
-        .social>img {
-            height: 17px;
-        }
     </style>
     <title>Round 1</title>
 </head>
@@ -206,7 +25,7 @@
                     d="M30.1213 10.0982C25.0111 10.0982 21.7143 12.9005 20.9999 14.494H20.8351V10.6476H13.4721V49.6607H20.8351V35.3742H20.9999C21.7143 36.9677 25.0111 39.77 30.1213 39.77C36.77 39.77 43.8583 34.8247 43.8583 24.9341C43.8583 15.0435 36.77 10.0982 30.1213 10.0982ZM28.6377 33.1763C24.4617 33.1763 20.6703 30.319 20.6703 24.9341C20.6703 19.5492 24.4617 16.6919 28.6377 16.6919C32.7039 16.6919 36.5502 19.6041 36.5502 24.9341C36.5502 30.2641 32.7039 33.1763 28.6377 33.1763Z"
                     fill="white" />
             </svg>
-            <img src="Red_X.svg.png" alt="logo part" width="10px">
+            <img src="Images/Red_X.svg.png" alt="logo part" width="10px">
         </div>
         <div class="account">
             <span class="material-icons">
@@ -216,7 +35,7 @@
     </nav>
 
     <section class="hero">
-        <img src="Cover Image.png" alt="">
+        <img src="Images/Cover Image.png" alt="">
         <div class="text">
             <div class="head">
                 <p class="dim">investment option</p>
@@ -254,8 +73,8 @@
                 <div class="payment" style="padding-left: 15px; margin-bottom: 30px;">
                     <p class="dim">select how you wanna pay</p>
                     <div class="methods" style="margin-bottom: 8px;">
-                        <img src="Stripe_logo,_revised_2016 1.png" alt="Stripe logo">
-                        <img src="Paypal_2014_logo 1.png" alt="Paypal logo">
+                        <img src="Images/Stripe_logo,_revised_2016 1.png" alt="Stripe logo">
+                        <img src="Images/Paypal_2014_logo 1.png" alt="Paypal logo">
                     </div>
                 </div>
                 <div class="consent">
@@ -463,9 +282,9 @@
             <div class="conItem" style="background-color: rgb(34, 33, 33);">
                 <p class="dim">share <strong>Link</strong></p>
                 <div class="social" style="justify-content: space-evenly;">
-                    <img src="facebook.png" alt="facebook icon">
-                    <img src="twitter.png" alt="twitter icon">
-                    <img src="instagram.png" alt="instagram icon">
+                    <img src="Images/facebook.png" alt="facebook icon">
+                    <img src="Images/twitter.png" alt="twitter icon">
+                    <img src="Images/instagram.png" alt="instagram icon">
                 </div>
             </div>
             <div class="conItem">
@@ -477,7 +296,111 @@
         </div>
     </section>
 
+    <!-- Horizontal Projects Section -->
+    <section class="moreProjects">
+        <div class="pTittle">
+            <h3>More from this projects</h3>
+            <div class="ScrollArrows">
+                <span class="material-icons">chevron_left</span>
+                <span class="material-icons">chevron_right</span>
+            </div>
+        </div>
+        <div class="horizontal">
+            <div class="card">
+                <img src="Images/cardImg.png" alt="Item Image">
+                <div class="about">
+                    <img src="Images/buyLogo.png" alt="Logo">
+                    <div class="desc">
+                        <span>Lambiyan</span>
+                        <p class="dim">Owned by - Pallav Bajjuri</p>
+                    </div>
+                </div>
+                <div class="buy">
+                    <span>Price - INR 5,73,000</span>
+                    <button class="button primary">Buy Now</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Images/cardImg.png" alt="Item Image">
+                <div class="about">
+                    <img src="Images/buyLogo.png" alt="Logo">
+                    <div class="desc">
+                        <span>Lambiyan</span>
+                        <p class="dim">Owned by - Pallav Bajjuri</p>
+                    </div>
+                </div>
+                <div class="buy">
+                    <span>Price - INR 5,73,000</span>
+                    <button class="button primary">Buy Now</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Images/cardImg.png" alt="Item Image">
+                <div class="about">
+                    <img src="Images/buyLogo.png" alt="Logo">
+                    <div class="desc">
+                        <span>Lambiyan</span>
+                        <p class="dim">Owned by - Pallav Bajjuri</p>
+                    </div>
+                </div>
+                <div class="buy">
+                    <span>Price - INR 5,73,000</span>
+                    <button class="button primary">Buy Now</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Images/cardImg.png" alt="Item Image">
+                <div class="about">
+                    <img src="Images/buyLogo.png" alt="Logo">
+                    <div class="desc">
+                        <span>Lambiyan</span>
+                        <p class="dim">Owned by - Pallav Bajjuri</p>
+                    </div>
+                </div>
+                <div class="buy">
+                    <span>Price - INR 5,73,000</span>
+                    <button class="button primary">Buy Now</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Images/cardImg.png" alt="Item Image">
+                <div class="about">
+                    <img src="Images/buyLogo.png" alt="Logo">
+                    <div class="desc">
+                        <span>Lambiyan</span>
+                        <p class="dim">Owned by - Pallav Bajjuri</p>
+                    </div>
+                </div>
+                <div class="buy">
+                    <span>Price - INR 5,73,000</span>
+                    <button class="button primary">Buy Now</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Images/cardImg.png" alt="Item Image">
+                <div class="about">
+                    <img src="Images/buyLogo.png" alt="Logo">
+                    <div class="desc">
+                        <span>Lambiyan</span>
+                        <p class="dim">Owned by - Pallav Bajjuri</p>
+                    </div>
+                </div>
+                <div class="buy">
+                    <span>Price - INR 5,73,000</span>
+                    <button class="button primary">Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <button>VIEW PROJECT</button>
+    </section>
 
+    <footer>
+        <span>About</span>
+        <span>Terms of Use</span>
+        <span>Privacy Policy</span>
+        <span>Knowledge Base</span>
+        <span>Customer Support</span>
+    </footer>
 
 
     <script>
