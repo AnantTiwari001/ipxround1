@@ -1,0 +1,34 @@
+{
+  "images": {
+    "hero": "Images/CoverImage.png",
+    "Howtobuy": "the hoe to buy section",
+    "projects": [
+      "https://picsum.photos/200",
+      "https://picsum.photos/200",
+      "https://picsum.photos/200",
+      "https://picsum.photos/200",
+      "https://picsum.photos/200",
+      "https://picsum.photos/200"
+    ]
+  },
+  "accordion": [
+    "first question answer of first accordion",
+    "second question answer",
+    "third question answer",
+    "first question answer of second accordion",
+    "second question answer",
+    "first question answer of third accordion",
+    "second question answer",
+    "first question answer of forth accordion sectioin",
+    "second question answer",
+    "third question answer"
+  ],
+  "projects": [
+    ["name of project1", "owner of project1", "price of project1"],
+    ["name of project2", "owner of project2", "price of project2"],
+    ["name of project3", "owner of project3", "price of project3"],
+    ["name of project4", "owner of project4", "price of project4"],
+    ["name of project5", "owner of project5", "price of project5"],
+    ["name of project6", "owner of project6", "price of project6"]
+  ]
+}
